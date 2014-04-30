@@ -102,7 +102,7 @@ public class GraphIMP<T> implements Graph<T>{
 		//create a list which does the breadth first search
 		List<GraphVertex<T>> list = bfs(v);
 		
-*/		
+		
 		//make a string to the list
 		return list.toString();
 	}
