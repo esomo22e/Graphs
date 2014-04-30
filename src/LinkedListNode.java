@@ -1,8 +1,7 @@
 /**
  * LinkedListNode is used together with LinkedList to help build up a linked list
  * 
- * @author jhughto
- *
+
  * @param <T>
  */
 public class LinkedListNode<T> {
