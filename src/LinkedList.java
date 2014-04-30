@@ -1,9 +1,6 @@
 /**
  * LinkedList class to build up a smarter data structure than a simple array
  * 
- * @author jhughto
- *
- * @param <T>
  * 
  */
 public class LinkedList<T> {
