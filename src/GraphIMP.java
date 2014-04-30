@@ -23,8 +23,8 @@ public class GraphIMP<T> implements Graph<T>{
 	public List<GraphVertex<T>> dfs( GraphVertex v) {
 		// TODO Auto-generated method stub
 		List<GraphVertex<T>> dfsVert = new ArrayList<GraphVertex<T>>();
-		//for(GraphVertex<T> vertex: vertSet){
-			//if(vertex.isVisited() == false){
+	
+		
 				//if the vertex is visited
 				v.setVisited(true);
 				//then do a depth first search
@@ -57,13 +57,7 @@ public class GraphIMP<T> implements Graph<T>{
 		//create a list
 		List<GraphVertex<T>> list = dfs(v);
 		
-		/*Iterator<GraphVertex<T>> dfsIterator = list.iterator();
-		while(dfsIterator.hasNext() ){
-			GraphVertex<T> vertex = dfsIterator.next();
-			T data = vertex.getData();
-			dfsList += (data.toString()+",");
-			
-		}*/
+	
 		//dfsList+= list.toString();
 		//add a two string method to the list
 		return list.toString();
@@ -107,13 +101,7 @@ public class GraphIMP<T> implements Graph<T>{
 		//String bfsList = "";
 		//create a list which does the breadth first search
 		List<GraphVertex<T>> list = bfs(v);
-		/*Iterator<GraphVertex<T>> bfsIterator = list.iterator();
-		while(bfsIterator.hasNext() ){
-			GraphVertex<T> vertex = bfsIterator.next();
-			T data = vertex.getData();
-			bfsList += (data.toString()+",");
-			
-		}
+		
 */		
 		//make a string to the list
 		return list.toString();
